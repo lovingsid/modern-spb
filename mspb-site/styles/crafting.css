@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+
+.services {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: auto;
+}
+.services__top {
+  display: flex;
+  padding: 0px 10rem;
+  margin-bottom: 3rem;
+  justify-content: space-around;
+}
+.services__bottom {
+  display: flex;
+  padding: 0px 10rem;
+  justify-content: space-around;
+}
+.services__item {
+  width: 45%;
+}
+.services__heading {
+  font-family: Work Sans, sans-serif;
+  color: #0020f6;
+}
+.services__description {
+  font-family: Work Sans, sans-serif;
+}
+.services__image img {
+  width: 530px;
+  height: 397.5px;
+}
+
+@media screen and (max-width: 430px) {
+  .services__top {
+    flex-direction: column-reverse;
+    display: flex;
+    padding: 0px 10px;
+    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .services__bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    margin-bottom: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .services__item {
+    width: 95%;
+  }
+  .services__heading h2 {
+    font-size: 20px;
+  }
+  .services__image img {
+    width: 386.6px;
+    height: 289.2px;
+  }
+}/*# sourceMappingURL=crafting.css.map */
